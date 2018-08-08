@@ -1,12 +1,12 @@
 /*General*/
 body {
     border-top: 10px solid #ededed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
     width: 960px;
     margin: 0 auto;
-    border-bottom: 7px solid #676766;
 }
 
 /*Header*/
@@ -24,7 +24,6 @@ body {
 
 .menu {
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #676766;
     margin-left: 74px;
@@ -42,4 +41,107 @@ body {
     padding-left: 44px;
 }
 
+#header {
+    border-bottom: 7px solid #676766;
+}
 
+/*Content*/
+#content {
+    padding: 30px;
+}
+
+.inicio h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #d3001c;
+    font-weight: bold;
+}
+
+.inicio p {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.titulo h3 {
+    font-size: 18px;
+    color: #8c0013;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.cuadro1 {
+    width: 440px;
+    height: 346px;
+    background-color: #f5f3f3;
+    border: 1px solid #cdcbcb;
+    float: left;
+}
+
+.cuadro1 h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #707070;
+    font-style: italic;
+}
+
+.cuadro1 p {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+.img1 {
+    float: right;
+}
+
+.cuadro1 a {
+    text-decoration: none;
+    color: #d3001c;
+    font-size: 14px;
+    float: right;
+}
+
+.cuadro2 {
+    width: 440px;
+    height: 346px;
+    background-color: #f5f3f3;
+    border: 1px solid #cdcbcb;
+    float: left;
+    margin-left: 16px;
+}
+
+.cuadro2 h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #707070;
+    font-style: italic;
+}
+
+.cuadro2 p {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.img2 {
+     float: right;
+}
+
+ .cuadro2 a {
+    text-decoration: none;
+    color: #d3001c;
+    font-size: 14px;
+    float: right;
+}
